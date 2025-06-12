@@ -1,0 +1,19 @@
+# Ignore Python cache and virtual env
+__pycache__/
+env*/
+*.pyc
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore executable and other large binaries
+*.exe
+*.dll
+*.pyd
+*.pkg
+
+# VSCode or IDE junk
+.vscode/
+*.log
+.DS_Store
